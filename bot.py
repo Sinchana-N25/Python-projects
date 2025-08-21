@@ -1,3 +1,9 @@
+# MemeBot
+
+# A simple Discord bot that responds to the `$meme` command by fetching and sending a 
+# random meme from Reddit using the Meme API. 
+# Built with `discord.py`, `requests`, and `json` for easy integration and learning.
+
 import discord
 import requests
 import json
@@ -29,4 +35,4 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run(TOKEN) # Replace with your own token.
+client.run(TOKEN) 
